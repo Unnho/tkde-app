@@ -168,15 +168,11 @@ tkde-app/
 ### Pre-built (Recommended)
 
 ```bash
-# The binary is already compiled and installed at:
-~/.local/bin/tkde-app
-
-# Just make sure it's executable
-chmod +x ~/.local/bin/tkde-app
-
-# Run it!
-tkde-app
+# One-liner install + run
+curl -L https://github.com/Unnho/tkde-app/releases/download/v2.1.0/tkde-app -o ~/.local/bin/tkde-app && chmod +x ~/.local/bin/tkde-app && tkde-app
 ```
+
+The binary is pre-compiled for **ARM64 (aarch64)** on Termux — no build needed.
 
 ### Manual Installation
 
